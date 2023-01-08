@@ -22,6 +22,9 @@
 		549229B6262589C400CDBF34 /* TaskSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549229B5262589C400CDBF34 /* TaskSearchView.swift */; };
 		549229B9262589E700CDBF34 /* MainViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549229B8262589E700CDBF34 /* MainViewModifier.swift */; };
 		549229BC26258A0900CDBF34 /* KeyBoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549229BB26258A0900CDBF34 /* KeyBoardExtension.swift */; };
+		CD7EC332296A86240089A849 /* CherishedPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EC331296A86240089A849 /* CherishedPerson.swift */; };
+		CD7EC334296A886F0089A849 /* CherishedPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EC333296A886F0089A849 /* CherishedPersonView.swift */; };
+		CD7EC336296A8AC10089A849 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EC335296A8AC10089A849 /* NSDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		549229B5262589C400CDBF34 /* TaskSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSearchView.swift; sourceTree = "<group>"; };
 		549229B8262589E700CDBF34 /* MainViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModifier.swift; sourceTree = "<group>"; };
 		549229BB26258A0900CDBF34 /* KeyBoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardExtension.swift; sourceTree = "<group>"; };
+		CD7EC331296A86240089A849 /* CherishedPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherishedPerson.swift; sourceTree = "<group>"; };
+		CD7EC333296A886F0089A849 /* CherishedPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherishedPersonView.swift; sourceTree = "<group>"; };
+		CD7EC335296A8AC10089A849 /* NSDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				549229A32625889A00CDBF34 /* Task.swift */,
+				CD7EC331296A86240089A849 /* CherishedPerson.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -122,6 +129,7 @@
 				549229B2262589B200CDBF34 /* SortPickerView.swift */,
 				549229A92625897C00CDBF34 /* AddTaskView.swift */,
 				549229B5262589C400CDBF34 /* TaskSearchView.swift */,
+				CD7EC333296A886F0089A849 /* CherishedPersonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -130,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				549229BB26258A0900CDBF34 /* KeyBoardExtension.swift */,
+				CD7EC335296A8AC10089A849 /* NSDate.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -216,11 +225,14 @@
 				549229B9262589E700CDBF34 /* MainViewModifier.swift in Sources */,
 				549229AD2625898E00CDBF34 /* TaskView.swift in Sources */,
 				5492298A262587B000CDBF34 /* AppDelegate.swift in Sources */,
+				CD7EC336296A8AC10089A849 /* NSDate.swift in Sources */,
 				549229BC26258A0900CDBF34 /* KeyBoardExtension.swift in Sources */,
 				5492298C262587B000CDBF34 /* SceneDelegate.swift in Sources */,
 				549229AA2625897C00CDBF34 /* AddTaskView.swift in Sources */,
 				549229A72625895D00CDBF34 /* TaskViewModel.swift in Sources */,
 				5492298E262587B000CDBF34 /* ContentView.swift in Sources */,
+				CD7EC334296A886F0089A849 /* CherishedPersonView.swift in Sources */,
+				CD7EC332296A86240089A849 /* CherishedPerson.swift in Sources */,
 				549229B02625899F00CDBF34 /* TaskListView.swift in Sources */,
 				549229B3262589B200CDBF34 /* SortPickerView.swift in Sources */,
 				549229B6262589C400CDBF34 /* TaskSearchView.swift in Sources */,
@@ -364,6 +376,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskManager/Preview Content\"";
+				DEVELOPMENT_TEAM = FFY96ZBU8L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TaskManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,6 +397,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskManager/Preview Content\"";
+				DEVELOPMENT_TEAM = FFY96ZBU8L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TaskManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

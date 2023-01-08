@@ -50,7 +50,6 @@ enum Priority : Int , Identifiable , CaseIterable {
             return .red
         }
     }
-    
 }
 
 enum SortType : String , Identifiable , CaseIterable {

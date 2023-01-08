@@ -15,7 +15,7 @@ struct MainViewModifier : ViewModifier {
     func body(content : Content) -> some View {
         
         content
-            .navigationBarTitle("My Tasks")
+            .navigationBarTitle("Cherished")
             .navigationBarItems(trailing: HStack(spacing:30){
                 EditButton()
                     .disabled(taskVM.tasks.isEmpty)
